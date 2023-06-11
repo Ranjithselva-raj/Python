@@ -58,3 +58,5 @@ def stock_market_html(symbol,interval,apikey):
     return pt
 
 result = stock_market_html("MSFT", "1min", apikey())
+
+#Hope this finds usefull
