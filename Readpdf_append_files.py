@@ -5,8 +5,8 @@ from PyPDF2 import PdfMerger
 def read_pdf_file_append(directory_path,outputfile):
     """ This function takes  1st argument as directory path where the pdf files to read and 2nd argument as the file path to store your mergend pdf file"""
 
-    directory = directory_path # D:\\London\\BI\\council\\Carer 
-    output_file = outputfile # D:\\London\\BI\\council\\Carer\\pdfmerge\\merged.pdf
+    directory = directory_path # D:\London\BI\council\Carer 
+    output_file = outputfile # D:\London\BI\council\Carer\pdfmerge\merged.pdf
 
     # Create a PdfMerger object
     pdf_merger = PdfMerger()
